@@ -126,6 +126,35 @@ html {
 
 }
 
+#content .content-section {
+    width: 800px;
+    padding: 64px 0;
+    margin-left : auto;
+    margin-right : auto;
+}
+
+#content .section-heading {
+    font-size: 30px ;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 4px ;
+}
+
+#content .section-slogan {
+    margin-top: 25px ;
+    font-size: 15px ;
+    text-align: center;
+    font-style: italic;
+    opacity: 0.6;
+}
+
+#content .about-content {
+    font-size: 15px;
+    margin-top: 25px;
+    text-align: justify;
+    line-height: 1.4;
+}
+
 #footer{
     
 }
