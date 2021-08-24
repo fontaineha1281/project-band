@@ -8,18 +8,28 @@ html {
     font-family: helvetica, arial, sans-serif;
 }
 
+
 #main {
 
 }
 
+.clear {
+    clear: both;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
 #header {
     height: 46px ;
-    background-color: #000 ;
+    background-color: #777 ;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 1;
+    opacity: 0.9;
 }
 
 #nav {
@@ -137,7 +147,7 @@ html {
     font-size: 30px ;
     font-weight: 500;
     text-align: center;
-    letter-spacing: 4px ;
+    letter-spacing: 6px ;
 }
 
 #content .section-slogan {
@@ -153,6 +163,116 @@ html {
     margin-top: 25px;
     text-align: justify;
     line-height: 1.4;
+}
+
+#content .member-list {
+    margin-top: 48px; 
+}
+
+#content .member-name {
+    font-size: 15px;
+}
+
+#content .memmber-image{
+    margin-top:  15px;
+    width: 154px;
+    border-radius:4px;
+
+}
+
+#content .member-item {
+    float: left;
+    width: calc(100% / 3);
+    text-align: center ;
+}
+
+#content .tour-section {
+    background-color: #000;
+
+}
+
+#content .ticket-list {
+    background-color: #fff ;
+    margin-top: 40px ;
+}
+
+.ticket-list li {
+    font-size: 15px;
+    color: #757575;
+    padding: 11px 16px;
+    border-bottom: 1px solid #ddd;
+    list-style: none;
+}
+
+.ticket-list .sold-out {
+    background-color: #f44336;
+    color: #fff;
+    padding: 3px 4px ;
+    margin-left: 16px;
+
+}
+
+.ticket-list .quantity {
+    float : right ;
+    width: 24px;
+    height : 24px ;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 24px;
+    margin-top : -3px ;
+}
+
+.place-list {
+    margin: 32px -8px 48px;
+}
+
+.place-item {
+    float : left;
+    width : calc(100% / 3);
+    padding : 0 8px ;
+}
+
+.place-img:hover{
+    opacity: 0.6;
+}
+
+.place-img {
+    width : 100% ;
+    display : block ;
+}
+
+.place-body {
+    background-color: #fff;
+    padding: 16px;
+    font-size: 15px;
+}
+
+.place-heading{
+    font-weight: 570;
+}
+
+.place-time {
+    margin-top: 15px;
+    color: #757575;
+    line-height: 1.4px;
+}
+
+.place-buy-btn {
+    text-decoration: none;
+    color : #fff;
+    background-color: #000;
+    padding: 10px 20px ;
+    display : inline-block;
+    margin-top: 15px;
+    border: 1px solid;
+    
+}
+
+.place-buy-btn:hover {
+    color: #777;
+    background-color: #fff;
 }
 
 #footer{
