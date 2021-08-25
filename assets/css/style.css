@@ -13,6 +13,31 @@ html {
 
 }
 
+/* common */
+
+.row {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.col {
+    float : left;
+     padding-left:8px;
+     padding-right: 8px;
+}
+
+.col-third {
+    width: calc(100%/3);
+}
+
+.col-half {
+    width: calc(100%/2);
+}
+
+.text-center {
+    text-align: center;
+}
+
 .clear {
     clear: both;
 }
@@ -180,12 +205,6 @@ html {
 
 }
 
-#content .member-item {
-    float: left;
-    width: calc(100% / 3);
-    text-align: center ;
-}
-
 #content .tour-section {
     background-color: #000;
 
@@ -225,13 +244,8 @@ html {
 }
 
 .place-list {
-    margin: 32px -8px 48px;
-}
-
-.place-item {
-    float : left;
-    width : calc(100% / 3);
-    padding : 0 8px ;
+    margin-top: 32px ;
+    margin-bottom: 48px;
 }
 
 .place-img:hover{
@@ -381,6 +395,8 @@ html {
         opacity: 1;
     }
 }
+
+
 
 #footer{
     
