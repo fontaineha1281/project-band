@@ -6,6 +6,7 @@
 
 html {
     font-family: helvetica, arial, sans-serif;
+    scroll-behavior: smooth;
 }
 
 
@@ -84,6 +85,7 @@ html {
 #nav > li {
     display: inline-block;
 }
+
 #nav li {
     position: relative;
 }
@@ -91,6 +93,8 @@ html {
 #nav > li > a {
     color: #d5d5d5;
     text-transform: uppercase;
+    letter-spacing: 5px ;
+    font-size: 15px;
 
 }
 
@@ -127,6 +131,8 @@ html {
 #nav .subnav a {
     color: #000;
     padding: 0 12px;
+    font-size: 17px;
+    letter-spacing: 5px ;
 }
 
 #nav .nav-arrow-down {
@@ -455,7 +461,30 @@ html {
     border: 1px solid #000;
 }
 
+.map-section img {
+    width : 100%;
+    display: block;
+}
+
 /* Footer section */
 #footer{
-    
+    padding: 64px 16px;
+    text-align: center;
+    background-color: #2d2d30;
+    color: #f5f5f5;
 }
+
+#footer p a:hover {
+    color: #777;
+}
+
+#footer p {
+    font-size: 20px;
+}
+
+#footer p a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #f5f5f5
+}
+

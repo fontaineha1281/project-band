@@ -4,28 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>The Band</title>
     <link rel="stylesheet" href=" ./assets/css/style.css">
     <link rel="stylesheet" href="./assets/img/themify-icons.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
     <div id="main">
         <div id="header">
             <!-- navigation -->
             <ul id="nav">
-                <li><a href="">Home</a></li>
-                <li><a href="">Band</a></li>
-                <li><a href="">Tour</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#band">Band</a></li>
+                <li><a href="#tour">Tour</a></li>
+                <li><a href="#contact">Contact</a></li>
                 <li>
                     <a href="#">
                         More
                         <i class="nav-arrow-down ti-angle-down"></i>
                     </a>
                     <ul class="subnav">
-                        <li><a href="">Merchandise</a></li>
-                        <li><a href="">Extras</a></li>
-                        <li><a href="">Media</a></li>
+                        <li><a href="#">Merchandise</a></li>
+                        <li><a href="#">Extras</a></li>
+                        <li><a href="#">Media</a></li>
                     </ul>
                 </li>
             </ul>
@@ -49,7 +50,7 @@
         
         <div id="content">
              <!-- about -->
-            <div class="content-section">
+            <div id="band" class="content-section">
                 <h2 class="section-heading">THE BAND</h2>
                 <p class="section-slogan">We love music!</p>
                 <p class="about-content">
@@ -77,7 +78,7 @@
              <!-- about -->
 
               <!-- tour -->
-            <div class="tour-section">
+            <div id="tour" class="tour-section">
                 <div class="content-section">
                 <h2 class="section-heading text-white">TOUR DATES</h2>
                 <p class="section-slogan text-white">Lorem ipsum we'll play you some music.<br>
@@ -124,7 +125,7 @@
              <!-- tour -->
 
               <!-- contact -->
-            <div class="content-section">
+            <div id="contact" class="content-section">
                 <h2 class="section-heading">Contact</h2>
                 <p class="section-slogan">We love our fans!</p>
 
@@ -155,10 +156,10 @@
                 </div>
                 
             </div>
-
-
              <!-- contact -->
-
+             <div class="map-section">
+                <img src="./assets/img/map/map.jpg" alt="">
+            </div>
              <!-- modal -->
                 <div class="modal js-modal">
                     <div class="modal-container js-modal-container">
@@ -204,7 +205,7 @@
          
 
         <div id="footer">
-
+            <p class="copyright">Powered by <a href="http://w3.css">W3.CSS</a>
         </div>
     </div>
     <script src="assets/script/main.js"></script>
