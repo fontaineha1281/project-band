@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Band</title>
+    <link rel="shortcut icon" href="./assets/img/favicon/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href=" ./assets/css/style.css">
     <link rel="stylesheet" href="./assets/img/themify-icons.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
     <div id="main">
@@ -38,7 +38,7 @@
             <!-- search button -->
         </div>
         <!-- slider -->
-        <div id="slider">
+        <div id="slider" style="background-image: url(./assets/img/slider/img1.jpg)">
             <div class="text-content">
                 <div class="text-heading">
                     <h2>New York</h2>
@@ -60,17 +60,17 @@
                 <div class="row member-list">
                     <div class="col col-third text-center">
                         <p class="member-name">Name</p>
-                        <img src="/assets/img/member/img.jpg" alt="Name" class="memmber-image">
+                        <img src="./assets/img/member/img.jpg" alt="Name" class="memmber-image">
                     </div>
 
                     <div class="col col-third text-center">
                         <p class="member-name">Name</p>
-                        <img src="/assets/img/member/img.jpg" alt="Name" class="memmber-image">
+                        <img src="./assets/img/member/img.jpg" alt="Name" class="memmber-image">
                     </div>
 
                     <div class="col col-third text-center">
                         <p class="member-name">Name</p>
-                        <img src="/assets/img/member/img.jpg" alt="Name" class="memmber-image">
+                        <img src="./assets/img/member/img.jpg" alt="Name" class="memmber-image">
                     </div>
                 </div>
                 <!-- Member List -->
@@ -180,13 +180,13 @@
                                 <i class="ti-shopping-cart"></i>
                                 Tickets, $15 per person
                             </label>
-                            <input id="ticket-quantity" type="number" class="modal-input" placeholder="How many?"> 
+                            <input id="ticket-quantity" type="number" class="modal-input" required placeholder="How many?"> 
 
                             <label for="ticket-email" class="modal-label">
                                 <i class="ti-user"></i>
                                 Send to
                             </label>
-                            <input id="ticket-email" type="email" class="modal-input" placeholder="Enter email..."> 
+                            <input id="ticket-email" type="email" class="modal-input" required placeholder="Enter email..."> 
                        <button id="buy-ticket">
                            Pay<i class="ti-check"></i>
                         </button>
