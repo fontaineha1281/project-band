@@ -26,3 +26,35 @@ modal.addEventListener('click',closeBuyTicket);
 modalContainer.addEventListener('click',function (event){
     event.stopPropagation();
 })
+
+// đóng mở mobile menu
+const header = document.getElementById('header');
+const mobileMenu = document.getElementById('mobile-menu');
+const headerHigh = header.clientHeight;
+mobileMenu.onclick = function () {
+    var isClose = header.clientHeight === headerHigh;
+    if (isClose) {
+        header.style.height = 'auto';
+    }
+    else {
+        header.style.height = null;
+    }
+}
+
+const menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+for (var i = 0; i < menuItems.length; i++) {
+    var menuItem = menuItems[i];
+    menuItem.onclick = function (event) {
+        var isParentMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav');
+        if (isParentMenu) {
+            header.style.height = null;
+        }
+        if (isParentMenu) {
+            event.preventDefault();
+        } else {
+            header.style.height = null;
+        }
+    }
+}
+
+

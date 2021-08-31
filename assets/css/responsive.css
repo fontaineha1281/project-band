@@ -1,0 +1,59 @@
+/* DESKTOP */
+@media (min-width: 1023px) {
+
+}
+
+/* TABLET */
+@media (min-width:740px) and (max-width: 1023px){
+
+}
+
+/* MOBILE */
+@media (max-width: 740px) {
+
+    #header {
+        overflow : hidden;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav li a {
+        padding : 1px 24px;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position : initial;
+        background-color : #333;
+    }
+
+    #nav .subnav a:hover {
+        color : #d5d5d5;
+    }
+
+    #nav .subnav a {
+        color : #000;
+        padding : 5px 41px;
+    }
+
+  
+
+    #header .mobile-menu-btn {
+        display: block;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+
+}
