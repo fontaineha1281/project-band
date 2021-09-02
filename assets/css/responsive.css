@@ -10,9 +10,16 @@
 
 /* MOBILE */
 @media (max-width: 740px) {
+    
+    .s-full-width,
     .s-col-full {
-        width: 100%;
+        width: 100% !important;
     }
+
+    .s-mt-8{
+        margin-top: 8px !important;
+    }
+
     #header {
         overflow : hidden;
     }
@@ -58,4 +65,14 @@
     #content .memmber-image {
         width : 60% ;
     }
+
+    .place-buy-btn {
+        width : 100% ;
+        text-align : center;
+    }
+
+    .contact-form {
+        margin-top : 16px;
+    }
+
 }

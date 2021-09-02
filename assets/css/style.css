@@ -24,6 +24,10 @@ html {
     margin-top: 16px !important;
 }
 
+.mt-32 {
+    margin-top: 32px !important;
+}
+
 .text-center {
     text-align: center !important;
 }
