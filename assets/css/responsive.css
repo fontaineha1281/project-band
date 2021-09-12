@@ -3,9 +3,38 @@
 
 }
 
+/* TABLET AND MOBILE */
+@media (min-width:1023px) {
+    #nav .subnav a {
+        padding: 5px 12px;
+    }
+
+    .place-buy-btn {
+        padding: 15px 16px;
+    }
+
+    .contact-form .form-control {
+        padding : 15px;
+    }
+
+    .contact-info {
+        line-height : 2;
+    }
+
+    .contact-submit-btn {
+        font-size: 16px;
+    }
+
+    #footer p a {
+        padding : 12px 0;
+        display : inline-block;
+    }
+
+}
+
 /* TABLET */
 @media (min-width:740px) and (max-width: 1023px){
-
+    
 }
 
 /* MOBILE */
@@ -51,7 +80,6 @@
 
     #nav .subnav a {
         color : #888;
-        padding : 5px 41px;
     }
 
     #header .mobile-menu-btn {
@@ -66,13 +94,18 @@
         width : 60% ;
     }
 
+    .contact-info {
+        margin-top: 32px;
+        line-height :2;
+    }
+
     .place-buy-btn {
         width : 100% ;
         text-align : center;
     }
 
     .contact-form {
-        margin-top : 16px;
+        margin-top : 32px;
     }
 
 }
