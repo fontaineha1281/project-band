@@ -1,10 +1,10 @@
 /* DESKTOP */
-@media (min-width: 1023px) {
+@media (min-width: 63.9375em) {
 
 }
 
 /* TABLET AND MOBILE */
-@media (min-width:1023px) {
+@media (min-width:63.9375em) {
     #nav .subnav a {
         padding: 5px 12px;
     }
@@ -33,12 +33,12 @@
 }
 
 /* TABLET */
-@media (min-width:740px) and (max-width: 1023px){
+@media (min-width:46.25em) and (max-width: 63.9375em){
     
 }
 
 /* MOBILE */
-@media (max-width: 740px) {
+@media (max-width: 46.1875em) {
     
     .s-full-width,
     .s-col-full {
